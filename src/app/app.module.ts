@@ -8,6 +8,7 @@ import { primeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     primeiroComponenteComponent,
     SegundoComponenteComponent,
     TwoWayDataBindingComponent,
-    RenderizandoListasComponent
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent
   ],
   imports: [
     BrowserModule,
