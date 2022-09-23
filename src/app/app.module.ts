@@ -1,16 +1,26 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { primeiroComponenteComponent } from './primeiro-componente/primeiro-componente.component';
+import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    primeiroComponenteComponent,
+    SegundoComponenteComponent,
+    TwoWayDataBindingComponent,
+    RenderizandoListasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
