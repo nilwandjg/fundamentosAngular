@@ -17,5 +17,4 @@ export class ExemploServicos1Component {
   adicionarNome(){
     this.logger.logar(`O nome ${this.nome} foi adicionado.`);
   }
-
 }
